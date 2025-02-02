@@ -1,5 +1,6 @@
 require('dotenv').config();
 require('./keep_alive');
+const { Readable } = require('stream');
 
 // Importation des modules nécessaires
 const { Client, GatewayIntentBits, Events, Partials } = require('discord.js');
