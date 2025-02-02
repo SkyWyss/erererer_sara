@@ -1,0 +1,19 @@
+{
+  "name": "sarang-bot",
+  "version": "1.0.0",
+  "description": "Un bot Discord pour Sarang",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "@skywyss. on discord",
+  "license": "MIT"
+}
